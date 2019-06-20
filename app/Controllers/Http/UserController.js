@@ -4,7 +4,7 @@ const User = use('App/Models/User')
 const Invite = use('App/Models/Invite')
 
 class UserController {
-  async store ({ request, response, auth }) {
+  async store ({ request, auth }) {
     const data = await request.only(['name', 'email', 'password'])
 
     const user = await User.create(data)
