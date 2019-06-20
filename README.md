@@ -1,28 +1,11 @@
-# Adonis API application
+# Group project adonisJS API
 
-This is the boilerplate for creating an API server in AdonisJs, it comes pre-configured with.
-
-1. Bodyparser
-2. Authentication
-3. CORS
-4. Lucid ORM
-5. Migrations and seeds
+Essa aplicação permite criar grupos e projetos dentro desses grupos. É possível convidar pessoas através de email e atribuir diferentes cargos para os membros de cada grupo.
 
 ## Setup
 
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick --api-only
-```
-
-or manually clone the repo and then run `npm install`.
-
+Configure as variáveis ambiente de acordo com o .env.example e então execute o comando ```adonis serve --dev``` para rodar em ambiente de desenvolvimento
 
 ### Migrations
 
-Run the following command to run startup migrations.
-
-```js
-adonis migration:run
-```
+Execute o comando ```adonis migration:run``` para criar as tabelas
