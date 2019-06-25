@@ -1,2 +1,2 @@
 release: node ace migration:run
-web: npm start
+web: ENV_SILENT=true npm start
