@@ -4,8 +4,8 @@ Essa aplicação permite criar grupos e projetos dentro desses grupos. É possí
 
 ## Setup
 
-Configure as variáveis ambiente de acordo com o .env.example e então execute o comando ```adonis serve --dev``` para rodar em ambiente de desenvolvimento
+Configure as variáveis ambiente e então execute o comando `adonis serve --dev` para rodar em ambiente de desenvolvimento
 
 ### Migrations
 
-Execute o comando ```adonis migration:run``` para criar as tabelas
+Execute o comando `adonis migration:run` para criar as tabelas
