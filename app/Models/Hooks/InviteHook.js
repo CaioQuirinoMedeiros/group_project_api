@@ -6,8 +6,6 @@ const Job = use('App/Jobs/InvitationEmail')
 
 const InviteHook = (exports = module.exports = {})
 
-InviteHook.method = async modelInstance => {}
-
 InviteHook.sendInvitationEmail = async invite => {
   const { email } = invite
 
