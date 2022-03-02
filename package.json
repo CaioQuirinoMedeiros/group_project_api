@@ -31,7 +31,7 @@
     "adonis-acl": "^1.1.1",
     "adonis-kue": "^5.0.1",
     "pg": "^7.11.0",
-    "url-parse": "^1.4.7"
+    "url-parse": "^1.5.9"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
